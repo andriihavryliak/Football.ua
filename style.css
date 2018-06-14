@@ -1,0 +1,238 @@
+body{
+  margin: 0;
+}
+h1{
+margin: 10px;
+color: green;
+font-size: 28px;
+font-style: italic;
+font-weight: 900;
+font-family: Helvetica, sans-serif;
+}
+.ball{
+  margin-left: 5px;
+  margin-right: -3px;
+}
+.header{
+  width: 100%;
+  border: solid 1px #DCDCDC;
+  border-left: solid black 2px;
+  height: 65px;
+}
+.logo{
+  float: left;
+}
+.fb-icon{
+  float: left;
+  margin:  20px 70px;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  text-align:center;
+}
+.fb-icon img{
+  vertical-align: middle;
+  overflow: hidden;
+}
+.fb-icon:hover{
+  background-color: #283e8f;
+}
+.p-icon{
+  float: left;
+  margin:  20px -60px;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  text-align:center;
+}
+.p-icon img{
+  vertical-align: middle;
+  overflow: hidden;
+}
+.p-icon:hover{
+  background-color: #283e8f;
+}
+.tw-icon{
+  float: left;
+  margin:  20px -30px;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  text-align:center;
+}
+.tw-icon img{
+  vertical-align: middle;
+  overflow: hidden;
+}
+.tw-icon:hover{
+  background-color: #283e8f;
+}
+.tumblr-icon{
+  float: left;
+  margin:  20px 0;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  text-align:center;
+}
+.tumblr-icon img{
+  vertical-align: middle;
+  overflow: hidden;
+}
+.tumblr-icon:hover{
+  background-color: #283e8f;
+}
+.search{
+  margin: 20px 330px;
+  float: left;
+}
+.input-search-form{
+  display: block;
+  border: 1px solid #F5F5F5;
+  position: absolute;
+  height: 22px;
+  border-radius: 15px;
+  width: 200px;
+  background-color: #E6E6FA;
+}
+.fas-search{
+  color: #c1bfbf;
+  font-size: 15px;
+  position: relative;
+  display: block;
+  left: 175px;
+  top: 5px;
+}
+.register{
+  margin: 20px;
+  font-size: 13px;
+  color: #1E90FF;
+}
+.register a{
+  color: #1E90FF;
+}
+.register a:hover{
+  text-decoration: none;
+}
+
+.navigation{
+  height: 43px;
+  background: transparent url("img2/bg-navigation.png") repeat-x;
+  clear: both;
+  margin-top: -18px;
+  margin-left: -30px;
+}
+.navigation>ul{
+  height: 40px;
+  border-bottom: 4px solid #228B22;
+}
+.navigation>ul>li{
+  float: left;
+  border-right: 1px solid #444;
+  list-style-type: none;
+}
+.navigation>ul>li>a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  line-height: 14px;
+  padding: 13px 18px;
+  border-right: 1px solid white;
+}
+.navigation>ul>li:last-child{
+  background: url("img2/i-sport.png")  center no-repeat;
+  border-right: none;
+}
+.navigation>ul>li>a:hover{
+  color: #32CD32;
+}
+.navigation a:active{
+  color: #32CD32;
+}
+.category{
+	float: left;
+}
+.menu li{
+  list-style-type: none;
+}
+.menu li a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid #DCDCDC;
+  line-height: 14px;
+  width: 100px;
+  color: black;
+  font-size: 14px;
+  font-family: Arial;
+  margin-left: -20px;
+}
+.menu li a:hover{
+  color: #32CD32;
+  text-decoration: underline;
+}
+.club-icons{
+  float: left;
+  margin: 20px;
+}
+.club-icons a{
+	padding: 10px;
+}
+.main{
+	margin: 80px 160px;
+}
+.main-photo{
+	background: url("img2/photo1.jpg") center no-repeat;
+	width: 350px;
+	height: 250px;
+	color: #ccc;
+	font-size: 11px;
+}
+.main-photo-p{
+	width: 100%;
+	height: 90%;
+}
+.main-p{
+	opacity: 0.7;
+	width: 100%;
+	height: 10%;
+	background-color: #000;
+	text-align: center;
+	line-height: 20px;
+}
+.main-news1{
+	background: #000;
+	width: 350px;
+	height: 100px;
+	border-top: 2px solid #a9a9a9;
+	text-decoration: none;
+}
+.main-news1 h2{
+	color: white;
+	font-family: Arial;
+	font-size: 17px;
+	letter-spacing: 1px;
+	margin: 10px;
+}
+.main-news1 p{
+	color: #a9a9a9;
+	font-family: Arial;
+	font-size: 12px;
+	margin: 10px;
+}
+.main-news2{
+	width: 350px;
+	height: 80px;
+	border-bottom: 1px solid black;
+	text-decoration: none;
+}
+.main-news2 h2{
+	font-family: Arial;
+	font-size: 17px;
+	margin: 10px;
+	color: black;
+	text-decoration: none;
+}
+	
+
+
