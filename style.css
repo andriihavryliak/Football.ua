@@ -1,5 +1,6 @@
 body {
     background: url("img2/bg-body.jpg");
+    min-width: 1110px;
 }
 
 .header {
@@ -14,27 +15,30 @@ body {
 .logo {
     margin: 20px 10px;
 }
+.social-icons{
+    margin: -40px 202px;
+}
 .social-icons ul{
     list-style: none;
 }
 .icons-list li{
     background: url("img2/social.png") no-repeat;
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     cursor: pointer;
 }
 .icons-list .fb-icon{
-    background-position: 0 -67px;
+    background-position: 0 -66px;
 }
 .icons-list .vk-icon{
-    background-position: 0 -463px;
+    background-position: 0 -462px;
 }
 .icons-list .tw-icon{
-    background-position: 0 -331px;
+    background-position: 0 -330px;
 }
 .icons-list .wi-fi{
-    background-position: 0 -199px;
+    background-position: 0 -198px;
 }
 .icons-list .fb-icon:hover{
     background: url("img2/social.png") no-repeat;
@@ -49,37 +53,55 @@ body {
     background-position: 0 -131px;
 }
 .search {
-    margin: 20px 330px;
-    float: left;
+    margin: 0 570px;
 }
 
 .input-search-form {
     display: block;
-    border: 1px solid #F5F5F5;
+    border: none;
     position: absolute;
-    height: 22px;
-    border-radius: 15px;
-    width: 200px;
-    background-color: #E6E6FA;
+    height: 21px;
+    border-radius: 13px;
+    width: 193px;
+    background-color: #ececec;
+    margin-top: -4px;
 }
 
-.fas-search {
+.input-form a{
     color: #c1bfbf;
     font-size: 15px;
     position: relative;
     display: block;
-    left: 175px;
-    top: 5px;
+    left: 171px;
+    top: 0px;
 }
-
-.register {
-    margin: 20px;
+.register{
+    color: blue;
+}
+.enter-block {
+    margin: -17px 951px;
+    font-size: 11px;
+    font-family: Arial sans-serif;
+}
+.enter-block a{
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+.register p{
+    display: block;
+    margin: -16px 992px;
+    color: #3783af;
+    font-family: Arial, sans-serif;
     font-size: 13px;
-    color: #1E90FF;
+}
+.register-block {
+    margin: 5px 1006px;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
 }
 
 .register a {
-    color: #1E90FF;
+    color: #3783af;
 }
 
 .register a:hover {
@@ -87,21 +109,22 @@ body {
 }
 
 .navigation {
-    height: 43px;
-    background: transparent url("img2/bg-navigation.png") repeat-x;
+    height: 32px;
+    background-color: #000;
+    margin-top: 7px;
+    color: #fff;
+    border-bottom: 3px solid #188a19;
     clear: both;
-    margin-top: -18px;
-    margin-left: -30px;
 }
 
 .navigation > ul {
-    height: 40px;
-    border-bottom: 4px solid #228B22;
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 19px;
 }
 
 .navigation > ul > li {
     float: left;
-    border-right: 1px solid #444;
     list-style-type: none;
 }
 
@@ -109,13 +132,24 @@ body {
     color: white;
     text-decoration: none;
     display: block;
-    line-height: 14px;
-    padding: 13px 18px;
-    border-right: 1px solid white;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial;
+    padding: 0 7px 0 6px;
+    letter-spacing: 1px;
+    background: url("img2/nav-line.png") no-repeat right 11px;
+    padding-left: 10px;
+    padding-right: 22px;
 }
-
+.navigation > ul> li > a > img{
+    display: block;
+    margin: -35px 890px;
+}
+.navigation > ul > li:first-child{
+    margin-left: -8px;
+}
 .navigation > ul > li:last-child {
-    background: url("img2/i-sport.png") center no-repeat;
     border-right: none;
 }
 
