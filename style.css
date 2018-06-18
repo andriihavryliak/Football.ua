@@ -6,58 +6,75 @@ body {
 .header {
     width: 1090px;
     border: solid 1px #DCDCDC;
-    height: 86px;
+    /*height: 86px;*/
     background-color: white;
     margin: 124px auto;
     margin-bottom: 0;
 }
+
+.top-header {
+}
+
 .logo {
     margin: 20px 10px;
     float: left;
 }
-.social-icons{
+
+.social-icons {
     float: left;
-    margin:  7px 3px;
+    margin: 7px 3px;
 }
-.social-icons ul{
+
+.social-icons ul {
     list-style: none;
 }
-.icons-list li{
+
+.icons-list li {
     background: url("img2/social.png") no-repeat;
     display: inline-block;
     width: 17px;
     height: 17px;
     cursor: pointer;
 }
-.icons-list .fb-icon{
+
+.icons-list .fb-icon {
     background-position: 0 -66px;
 }
-.icons-list .vk-icon{
+
+.icons-list .vk-icon {
     background-position: 0 -462px;
 }
-.icons-list .tw-icon{
+
+.icons-list .tw-icon {
     background-position: 0 -330px;
 }
-.icons-list .wi-fi{
+
+.icons-list .wi-fi {
     background-position: 0 -198px;
 }
-.icons-list .fb-icon:hover{
+
+.icons-list .fb-icon:hover {
     background: url("img2/social.png") no-repeat;
 }
-.icons-list .vk-icon:hover{
+
+.icons-list .vk-icon:hover {
     background-position: 0 -397px;
 }
-.icons-list .tw-icon:hover{
+
+.icons-list .tw-icon:hover {
     background-position: 0 -265px;
 }
-.icons-list .wi-fi:hover{
+
+.icons-list .wi-fi:hover {
     background-position: 0 -131px;
 }
-.header-advertisement{
+
+.header-advertisement {
     float: left;
     margin-top: 20px;
     margin-left: 52px;
 }
+
 .search {
     float: left;
     vertical-align: middle;
@@ -74,7 +91,7 @@ body {
     background-color: #ececec;
 }
 
-.input-form a{
+.input-form a {
     color: #c1bfbf;
     font-size: 15px;
     position: relative;
@@ -82,18 +99,21 @@ body {
     left: 171px;
     top: 4px;
 }
-.register-block{
+
+.register-block {
     color: blue;
     float: right;
     margin: 20px 10px;
 }
+
 .enter-list {
     font-size: 11px;
     font-family: Arial sans-serif;
     list-style: none;
     margin: 3px 10px;
 }
-.enter-list li{
+
+.enter-list li {
     font-family: Arial, sans-serif;
     font-size: 11px;
     display: inline-block;
@@ -102,10 +122,12 @@ body {
     line-height: 12px;
     margin-left: 8px;
 }
-.enter-list li:first-child{
+
+.enter-list li:first-child {
     border-left: none;
     padding-left: 0;
 }
+
 .register-block {
     font-size: 11px;
     font-family: Arial, sans-serif;
@@ -124,13 +146,12 @@ body {
     background-color: #000;
     color: #fff;
     border-bottom: 3px solid #188a19;
-    clear: both;
 }
 
 .navigation > ul {
-    height: 32px;
     padding-left: 10px;
     padding-right: 19px;
+    margin: 0;
 }
 
 .navigation > ul > li {
@@ -152,13 +173,16 @@ body {
     padding-left: 10px;
     padding-right: 22px;
 }
-.isport-logo{
+
+.isport-logo {
     display: block;
     float: right;
 }
-.navigation > ul > li:first-child{
+
+.navigation > ul > li:first-child {
     margin-left: -8px;
 }
+
 .navigation > ul > li:last-child {
     border-right: none;
 }
@@ -170,9 +194,11 @@ body {
 .navigation a:active {
     color: #32CD32;
 }
-.clear{
+
+.clear {
     clear: both;
 }
+
 .category {
     float: left;
 }
@@ -308,8 +334,3 @@ body {
 
 .content {
 }
-
-.clear {
-    clear: both;
-}
-
