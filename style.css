@@ -11,8 +11,12 @@ body {
     margin: 124px auto 0;
 }
 
-.top-header {
-
+.wrap{
+    width: 1090px;
+    border: solid 1px #dcdcdc;
+    height: 100%;
+    background-color: white;
+    margin: 20px auto;
 }
 
 .logo {
@@ -167,7 +171,8 @@ body {
     line-height: 35px;
     text-align: center;
     font-size: 12px;
-    font-family: Arial, serif;
+    font-family: 'PFDinBold', Arial, sans-serif;;
+    /*padding: 0 7px 0 6px;*/
     letter-spacing: 1px;
     background: url("img2/nav-line.png") no-repeat right 11px;
     padding: 0 22px 0 10px;
@@ -195,8 +200,12 @@ body {
     clear: both;
 }
 
-.category {
+.side-bar {
     float: left;
+    font: 12px/20px 'PFDinRegular', Arial, sans-serif;
+    width: 110px;
+    letter-spacing: .7px;
+    margin-bottom: 10px;
 }
 
 .menu li {
@@ -205,15 +214,23 @@ body {
 
 .menu li a {
     display: block;
-    padding: 10px;
     text-decoration: none;
     border: 1px solid #DCDCDC;
-    line-height: 14px;
-    width: 100px;
+    width: 94px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    padding: 8px 7px;
+    line-height: 16px;
+    background: #fdfdfd;
+    letter-spacing: .7px;
     color: black;
-    font-size: 14px;
-    font-family: Arial, serif;
-    margin-left: -20px;
+    margin-left: -30px;
+    margin-top: -2px;
+}
+.menu-separator{
+    height: 10px;
+    border: none;
+    padding: 0;
 }
 
 .menu li a:hover {
@@ -222,8 +239,7 @@ body {
 }
 
 .club-icons {
-    /*float: left;*/
-    margin: 20px;
+    margin: 10px 25px;
 }
 
 .club-icons a {
@@ -231,15 +247,24 @@ body {
 }
 
 .main {
-    margin: 80px 160px;
+    float: left;
+    width: 950px;
+    padding-bottom: 40px;
+    position: relative;
 }
-
+.main-content{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: top;
+}
 .main-photo {
     background: url("img2/photo1.jpg") center no-repeat;
     width: 350px;
     height: 250px;
     color: #ccc;
     font-size: 11px;
+    margin-left: 20px;
 }
 
 .main-photo-p {
@@ -256,77 +281,45 @@ body {
     line-height: 20px;
 }
 
-.main-news1 {
-    background: #000;
-    width: 350px;
+.main-news-current{
+    width: 330px;
     height: 100px;
-    border-top: 2px solid #a9a9a9;
     text-decoration: none;
-}
-
-.main-news1 h2 {
+    background: #020202;
     color: white;
-    font-family: Arial sans-serif;
-    font-size: 17px;
+    border-bottom: 0;
+    padding: 7px 10px 12px;
+    margin-left: 20px;
+
+}
+.main-news-current h2 {
+    color: white;
+    font-family:'PFDinBold', Arial, sans-serif;
+    font-size: 19px;
     letter-spacing: 1px;
-    margin: 10px;
+    margin: 0;
 }
 
-.main-news1 p {
+.main-news-current p {
     color: #a9a9a9;
     font-family: Arial sans-serif;
-    font-size: 12px;
-    margin: 10px;
+    font-size: 15px;
+    margin-top: 10px;
 }
 
-.main-news2 {
+.main-news{
     width: 350px;
     height: 75px;
     border-bottom: 1px solid black;
+    margin-left: 20px;
 }
 
-.main-news2 h2 {
-    font-family: Arial sans-serif;
-    font-size: 17px;
+.main-news h2 {
+    font-family: 'PFDinBold', Arial, sans-serif;;
+    font-size: 19px;
     margin: 10px;
     color: #2f3033;
 }
-
-.main-news3 {
-    width: 350px;
+.main-news-lower{
     height: 55px;
-    border-bottom: 1px solid black;
-}
-
-.main-news3 h2 {
-    font-family: Arial sans-serif;
-    font-size: 17px;
-    margin: 10px;
-    color: #2f3033;
-}
-
-.main-news4 {
-    width: 350px;
-    height: 55px;
-    border-bottom: 1px solid black;
-}
-
-.main-news {
-    width: 350px;
-    height: 55px;
-    border-bottom: 1px solid black;
-}
-
-.main-news-higher {
-    height: 75px;
-}
-
-.main-news4 h2 {
-    font-family: Arial sans-serif;
-    font-size: 17px;
-    margin: 10px;
-    color: #2f3033;
-}
-
-.content {
 }
