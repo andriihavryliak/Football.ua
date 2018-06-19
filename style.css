@@ -8,8 +8,7 @@ body {
     border: solid 1px #DCDCDC;
     height: 81px;
     background-color: white;
-    margin: 124px auto;
-    margin-bottom: 0;
+    margin: 124px auto 0;
 }
 
 .top-header {
@@ -161,38 +160,31 @@ body {
     list-style-type: none;
 }
 
-.navigation > ul > li > a {
+.navigation-link {
     color: white;
     text-decoration: none;
     display: block;
     line-height: 35px;
     text-align: center;
     font-size: 12px;
-    font-family: Arial;
-    padding: 0 7px 0 6px;
+    font-family: Arial, serif;
     letter-spacing: 1px;
     background: url("img2/nav-line.png") no-repeat right 11px;
-    padding-left: 10px;
-    padding-right: 22px;
+    padding: 0 22px 0 10px;
+}
+
+.navigation-link:hover {
+    color: #32CD32;
 }
 
 .isport-logo {
-    display: block;
-    position: absolute;
-    background: url("img2/isport-logo.png") no-repeat;
-    width: 131px;
-    height: 32px;
     padding: 0;
-    right: 0;
-    top: 0;
+    height: 32px;
+    width: 130px
 }
 
 .navigation > ul > li:first-child {
     margin-left: -8px;
-}
-
-.navigation > ul > li > a:hover {
-    color: #32CD32;
 }
 
 .navigation a:active {
@@ -220,7 +212,7 @@ body {
     width: 100px;
     color: black;
     font-size: 14px;
-    font-family: Arial;
+    font-family: Arial, serif;
     margin-left: -20px;
 }
 
