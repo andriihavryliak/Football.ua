@@ -8,8 +8,7 @@ body {
     border: solid 1px #DCDCDC;
     height: 81px;
     background-color: white;
-    margin: 124px auto;
-    margin-bottom: 0;
+    margin: 124px auto 0;
 }
 
 .wrap{
@@ -165,7 +164,7 @@ body {
     list-style-type: none;
 }
 
-.navigation > ul > li > a {
+.navigation-link {
     color: white;
     text-decoration: none;
     display: block;
@@ -173,30 +172,27 @@ body {
     text-align: center;
     font-size: 12px;
     font-family: 'PFDinBold', Arial, sans-serif;;
-    padding: 0 7px 0 6px;
     letter-spacing: 1px;
     background: url("img2/nav-line.png") no-repeat right 11px;
-    padding-left: 10px;
-    padding-right: 22px;
+    padding: 0 22px 0 10px;
 }
 
-.isport-logo {
+.navigation-link:hover {
+    color: #32CD32;
+}
+.isport-logo{
+    padding: 0;
     display: block;
     position: absolute;
     background: url("img2/isport-logo.png") no-repeat;
-    width: 131px;
+    width: 182px;
     height: 32px;
-    padding: 0;
     right: 0;
     top: 0;
 }
 
 .navigation > ul > li:first-child {
     margin-left: -8px;
-}
-
-.navigation > ul > li > a:hover {
-    color: #32CD32;
 }
 
 .navigation a:active {
@@ -246,7 +242,7 @@ body {
 }
 
 .club-icons {
-    margin: 10px 25px;
+    margin: 10px 20px;
 }
 
 .club-icons a {
@@ -258,6 +254,14 @@ body {
     width: 950px;
     padding-bottom: 40px;
     position: relative;
+}
+.main-left{
+    width: 675px;
+    float: left;
+}
+.col-left{
+    width: 350px;
+    float: left;
 }
 .main-content{
     margin: 0;
@@ -327,6 +331,49 @@ body {
     margin: 10px;
     color: #2f3033;
 }
-.main-news-lower{
+.main-news-lower {
     height: 55px;
 }
+.col-right{
+    width: 270px;
+    float: right;
+    margin: -10px 20px;
+}
+.col-right h2{
+    color: #1e8618;
+    display: block;
+    font: 15px/20px 'PFDinBold', Arial, sans-serif;
+    letter-spacing: 0.6px;
+    border-bottom: 2px solid  #1e8618;;
+    padding: 0 0 5px;
+    font-weight: bold;
+}
+.wifi-icon{
+    display: block;
+    width: 9px;
+    height: 9px;
+    background: url("img2/wifi-icon.png") no-repeat;
+    float: right;
+    margin-top: -35px;
+}
+.col-right li{
+    font-size: 13px;
+    padding: 13px 0 13px;
+    border-bottom: 1px dotted #cecece;
+    line-height: 16px;
+    color: #333;
+    list-style: none;
+    font-family: 'PFDinBold', Arial, sans-serif;
+}
+.col-right a{
+    text-decoration: none;
+    color: #333;
+}
+.col-right a:hover{
+    text-decoration: underline;
+}
+.rightnews-list{
+    margin: -10px -40px;
+}
+
+
