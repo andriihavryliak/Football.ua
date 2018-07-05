@@ -393,6 +393,7 @@ body {
     padding: 0 0 5px;
     margin-left: 20px;
     width: 94%;
+    font-weight: bold;
 }
 .am-wrap{
     max-width: 650px;
@@ -470,9 +471,252 @@ body {
     right: 0;
     background: #000 url("img2/arrow-right.png") no-repeat center;
 }
-.am-controls-direction a:hover{
+.am-controls-direction a:hover {
     background: #696969;
 }
+.column-left{
+    width: 350px;
+    float: left;
+}
+.main-match-center{
+    position: relative;
+    left: 20px;
+}
+.match-center-header{
+     position: absolute;
+     top: 0;
+     width: 120px;
+     right: 0px;
+     margin: 0 auto;
+     left: 0;
+ }
+.main-match-center h3{
+    color: #ff4400;
+    font: 14px/20px 'PFDinBold', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-bottom: 2px solid #ff4400;
+    padding: 0 0 5px;
+    font-weight: bold;
+}
+.match-table{
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    margin-top: -5px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.match-table tr{
+     border-top: 1px solid #e4e4e4;
+}
+.match-table tr:nth-child(odd) {
+    background: #f9f9f9;
+}
+.match-table th{
+    padding: 0 0 4px 0;
+}
+.table-match-header{
+    color: #ff4400;
+    padding-top: 0;
+    font: 12px/14px 'PFDinBold', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.table-match-time {
+    font: 10px/14px 'PFDinRegular', Arial, sans-serif;
+    text-transform: uppercase;
+    padding-top: 2px;
+    margin-top: -10px;
+    margin-bottom: 2px;
+}
+.main-match1, .main-match3{
+    background: #fff;
+}
+.mm-time{
+    width: 48px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px 0 5px;
+    vertical-align: middle;
+    color: #333;
+}
+.mm-left-team{
+    width: 37%;
+    text-align: right;
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px 0 5px;
+    vertical-align: middle;
+    color: #333;
+    font-family: 'PFDinRegular', Arial, sans-serif;
+}
+.match-table tr a{
+    text-decoration: none;
+    color: #333;
+}
+.match-table tr a:hover{
+    text-decoration: underline;
+}
+.mm-score {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    position: relative;
+    line-height: 14px;
+    padding: 5px 0 5px;
+    vertical-align: middle;
+    color: #333;
+}
+.mm-right-team {
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px 0 5px;
+    vertical-align: middle;
+    color: #333;
+    font-family: 'PFDinRegular', Arial, sans-serif;
+}
+.all-match-center{
+    position: relative;
+    left: 20px;
+}
+.all-match-center h3{
+    color: #1e8618;
+    font: 14px/20px 'PFDinBold', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-bottom: 2px solid #1e8618;
+    padding: 0 0 5px;
+    font-weight: bold;
+}
+.all-match-header{
+    color: #1e8618;
+    padding-top: 0;
+    font: 12px/14px 'PFDinBold', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.mm-controls-direction a {
+    position: absolute;
+    width: 23px;
+    height: 20px;
+    top: 6px;
+}
+.mm-prev{
+    right: 27px;
+    background: #1E8618 url("img2/arrow-left.png") no-repeat center;
+}
+.mm-next{
+    right: 0;
+    background: #1E8618 url("img2/arrow-right.png") no-repeat center;
+}
+.mm-controls-direction a:hover {
+    background: #90EE90;
+}
+.tournaments-table{
+    position: relative;
+}
+.tournaments-table h3{
+    font: 14px/20px 'PFDinBold', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-bottom: 2px solid #000;
+    padding: 0 0 5px;
+    margin-left: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+.tournaments-table-content{
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    margin-top: 9px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 20px;
+}
+.tournaments-table-content tr:first-child {
+    background: #ebebeb;
+}
+.tournaments-table th {
+    padding: 7px 0 3px;
+    vertical-align: middle;
+    font: 10px/14px 'PFDinBold', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tt-num{
+    width: 25px;
+    text-align: center;
+}
+.tt-date{
+    width: 230px;
+}
+.tt-games{
+    width: 35px;
+    text-align: center;
+}
+.tt-score{
+    width: 35px;
+    text-align: center;
+}
+.tournaments-table td:first-child {
+    width: 25px;
+    text-align: center;
+}
+.tournaments-table td {
+    font-size: 11px;
+    height: 23px;
+    vertical-align: middle;
+    border-top: 1px solid #e4e4e4;
+}
+.tournaments-table .tt-team span {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    margin: 0 3px;
+    vertical-align: middle;
+}
+.tournaments-table a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+.tt-team{
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px 0 0px;
+    vertical-align: middle;
+    color: #333;
+    font-family: 'PFDinRegular', Arial, sans-serif;
+}
+.tt-team a {
+    font-size: 11px;
+    vertical-align: middle;
+    font-family: 'PFDinRegular', Arial, sans-serif;
+}
+.table-detail{
+    font-size: 10px;
+    line-height: 32px;
+    color: #333;
+    font-family: 'PFDinRegular', Arial, sans-serif;
+    text-decoration: underline;
+    margin-right: -20px;
+    margin-top: -2px;
+    float: right;
+}
+.table-detail:hover{
+    text-decoration: none;
+}
+
+
+
+
+
 
 
 
