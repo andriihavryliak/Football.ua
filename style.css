@@ -712,6 +712,56 @@ body {
 .table-detail:hover{
     text-decoration: none;
 }
+.banner2{
+    width: 350px;
+}
+.banner-advertisement2{
+}
+.adv-item1, .adv-item2, .adv-item3, .adv-item4{
+    height: 67px;
+}
+.adv-img1{
+    float: left;
+    margin-left: 30px;
+    padding-right: 5px;
+}
+.adv-text1{
+    font-family: Arial;
+    font-size: 14px;
+    color: #222222;
+}
+.adv-img2{
+    float: left;
+    margin-left: 30px;
+}
+.adv-text2{
+    font-family: Arial;
+    font-size: 14px;
+    color: #222222;
+}
+.adv-img3{
+    float: left;
+    margin-left: 30px;
+    padding-right: 5px;
+}
+.adv-text3{
+    font-family: Arial;
+    font-size: 14px;
+    color: #222222;
+}
+.adv-img4{
+    float: left;
+    margin-left: 30px;
+    padding-right: 5px;
+}
+.adv-text4{
+    font-family: Arial;
+    font-size: 14px;
+    color: #222222;
+}
+.football-acount{
+    margin-left: 20px;
+}
 
 
 
