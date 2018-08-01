@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    width: 1090px;
+    width: 1100px;
     border: solid 1px #DCDCDC;
     height: 81px;
     background-color: white;
@@ -12,7 +12,7 @@ body {
 }
 
 .wrap{
-    width: 1090px;
+    width: 1100px;
     border: solid 1px #dcdcdc;
     height: 5000px;
     background-color: white;
@@ -251,7 +251,7 @@ body {
 
 .main {
     float: left;
-    width: 950px;
+    width: 970px;
     padding-bottom: 40px;
     position: relative;
 }
@@ -335,9 +335,9 @@ body {
     height: 55px;
 }
 .col-right{
-    width: 270px;
+    width: 250px;
     float: right;
-    margin: -10px 20px;
+    margin: -10px 35px;
 }
 .col-right h2{
     color: #1e8618;
@@ -821,9 +821,266 @@ body {
 .more a:hover{
     text-decoration: none;
 }
+.main-right{
+    float: right;
+    width: 295px;
+    margin-top: 10px;
+}
+.empty-line{
+    border: 5px solid #efefef;
+}
+.advertisement-right{
+    border: 5px solid #efefef;
+    width: 285px;
+    height: 600px;
+    background: url("img2/bg-ad.jpeg");
+}
+.actual-news h2{
+    color: black;
+    display: block;
+    font: 14px/20px 'PFDinBold', Arial, sans-serif;
+    letter-spacing: 0.6px;
+    border-bottom: 2px solid #000;
+    padding: 0 0 5px;
+    font-weight: bold;
+}
+.transfermarket{
+    border-bottom: 1px solid #282828;
+    padding: 7px 0 0;
+}
+.transfer-icon{
+    float: left;
+    width: 35px;
+    margin: -10px 15px 0 12px;
+}
+.actual-news h3{
+    font: 17px/18px 'PFDinBold', Arial, sans-serif;
+    margin-left: 62px;
+    margin-top: -12px;
+}
+.actual-news a{
+    font: 16px/18px 'PFDinBold', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+}
+.actual-news a:hover{
+    color: green;
+}
+.actual-news p{
+    font-size: 10px;
+    color: #333;
+    line-height: 16px;
+    margin-left: 62px;
+    margin-top: -10px;
+}
+.adv-banner3{
+    border: 5px solid #efefef;
+}
+.adv-banner4{
+    border: 5px solid #efefef;
+}
+.video h2{
+    color: black;
+    display: block;
+    font: 14px/20px 'PFDinBold', Arial, sans-serif;
+    letter-spacing: 0.6px;
+    border-bottom: 2px solid #000;
+    padding: 0 0 5px;
+    font-weight: bold;
+}
+.video-list{
+    list-style: none;
+    margin-left: -40px;
+}
+.video-list li{
+    border-bottom: 1px dotted #cecece;
+    margin-top: -10px;
+    padding-bottom: 0;
+}
+.video-list p{
+    font: 9px/12px 'PFDinBold', Arial, sans-serif;
+    margin-top: -0px;
+}
+.video-list h3{
+    margin-top: -5px;
+}
+.video-list a{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-family: 'PFDinBold', Arial, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+.video-list a:hover{
+    color: green;
+}
+.video-list li:last-child{
+    margin-top: 10px;
+}
+.more2{
+    font-size: 10px;
+    line-height: 32px;
+    text-align: right;
+    color: #333;
+    font-family: 'PFDinBold', Arial, sans-serif;
+    margin-top: -15px;
+}
+.more2 a{
+    text-decoration: underline;
+    color: #333;
+}
+.more2 a:hover{
+    text-decoration: none;
+}
+.photo h2{
+    color: black;
+    display: block;
+    font: 14px/20px 'PFDinBold', Arial, sans-serif;
+    letter-spacing: 0.6px;
+    border-bottom: 2px solid #000;
+    padding: 0 0 5px;
+    font-weight: bold;
+}
+.control-item{
+    width: 23px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #fff;
+    background: #f2f2f2;
+}
+.control-item a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+.control-item1{
+    width: 23px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #fff;
+    background: #000;
+}
+.control-item1 a{
+    width: 23px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+.control-item a:hover{
+    color: white;
+    background-color: black;
+}
+.control-direction-right{
+    width: 23px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #fff;
+    background: #f2f2f2;
+}
+.control-direction-left{
+    width: 23px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #fff;
+    background: #f2f2f2;
+}
+.control-direction-left:hover{
+    background-color: #91919a;
+}
+.control-direction-right:hover{
+    background-color: #91919a;
+}
+.photo-content{
+    background: url("http://s.ill.in.ua/i/gallery/310x230/2746/147950.jpg") center no-repeat;
+    width: 310px;
+    height: 230px;
+    color: #ccc;
+    font-size: 11px;
+    margin-top: -5px;
+}
+.photo-p {
+    width: 100%;
+    height: 70%;
+}
 
-
-
+.photoblock-p{
+    opacity: 0.7;
+    height: 23%;
+    background-color: #000;
+    line-height: 20px;
+    bottom: 0;
+    color: #fff;
+    width: 94%;
+    padding: 10px 3% 6px;
+}
+.photo-amount{
+    font-size: 9px;
+    line-height: 9px;
+    font-style: italic;
+    float: right;
+    margin-top: -2px;
+}
+.photo-date{
+    font: 9px/12px 'PFDinBold', Arial, sans-serif;
+    margin-top: -2px;
+    color: #fff;
+}
+.photoblock-p h3{
+    margin-top: -10px;
+    width: 100%;
+}
+.photoblock-p a{
+    cursor: pointer;
+}
+.photoblock-p a:hover{
+    text-decoration: underline;
+}
+.photo-list{
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 30px;
+}
+.photo-list li{
+    border-bottom: 1px dotted #cecece;
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+.photo-list p{
+    font: 9px/12px 'PFDinBold', Arial, sans-serif;
+    margin-top: 10px;
+}
+.photo-list h3{
+    margin-top: -5px;
+}
+.photo-list a{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-family: 'PFDinBold', Arial, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.photo-list a:hover{
+    color: green;
+}
+.photo-amount2{
+    font-size: 9px;
+    line-height: 9px;
+    font-style: italic;
+    float: right;
+    margin-top: -2px;
+}
 
 
 
